@@ -1,0 +1,62 @@
+[19-Nov-2026 06:02:19 Europe/Moscow] [stroycalc] Admin view not found: admin/login
+#0 D:\YP\app\Controllers\AdminController.php(24): admin_auth_view('admin/login', Array)
+#1 D:\YP\app\Core\Router.php(124): App\Controllers\AdminController->loginForm(Array)
+#2 D:\YP\app\Core\Router.php(66): App\Core\Router->invoke(Array, Array)
+#3 D:\YP\index.php(11): App\Core\Router->dispatch('GET', '/admin/login')
+#4 D:\YP\router.php(24): require('D:\\YP\\index.php')
+#5 {main}
+[19-Nov-2026 06:14:17 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: id in D:\YP\.tools\check.php:11
+Stack trace:
+#0 D:\YP\.tools\check.php(11): PDO->query('SELECT slug, co...')
+#1 {main}
+  thrown in D:\YP\.tools\check.php on line 11
+[19-Nov-2026 06:36:00 Europe/Moscow] [stroycalc] could not find driver
+#0 D:\YP\app\Core\Database.php(53): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\YP\app\helpers.php(25): App\Core\Database::pdo()
+#2 D:\YP\app\Repositories\ArticleRepository.php(17): db()
+#3 D:\YP\app\Controllers\HomeController.php(13): App\Repositories\ArticleRepository->published(3)
+#4 D:\YP\app\Core\Router.php(124): App\Controllers\HomeController->index(Array)
+#5 D:\YP\app\Core\Router.php(66): App\Core\Router->invoke(Array, Array)
+#6 D:\YP\index.php(11): App\Core\Router->dispatch('GET', '/')
+#7 D:\YP\router.php(24): require('D:\\YP\\index.php')
+#8 {main}
+[19-Nov-2026 06:36:18 Europe/Moscow] [stroycalc] could not find driver
+#0 D:\YP\app\Core\Database.php(53): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\YP\app\helpers.php(25): App\Core\Database::pdo()
+#2 D:\YP\app\Repositories\ArticleRepository.php(17): db()
+#3 D:\YP\app\Controllers\HomeController.php(13): App\Repositories\ArticleRepository->published(3)
+#4 D:\YP\app\Core\Router.php(124): App\Controllers\HomeController->index(Array)
+#5 D:\YP\app\Core\Router.php(66): App\Core\Router->invoke(Array, Array)
+#6 D:\YP\index.php(11): App\Core\Router->dispatch('GET', '/')
+#7 D:\YP\router.php(24): require('D:\\YP\\index.php')
+#8 {main}
+[19-Nov-2026 06:36:20 Europe/Moscow] [stroycalc] could not find driver
+#0 D:\YP\app\Core\Database.php(53): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\YP\app\helpers.php(25): App\Core\Database::pdo()
+#2 D:\YP\app\Repositories\ArticleRepository.php(17): db()
+#3 D:\YP\app\Controllers\HomeController.php(13): App\Repositories\ArticleRepository->published(3)
+#4 D:\YP\app\Core\Router.php(124): App\Controllers\HomeController->index(Array)
+#5 D:\YP\app\Core\Router.php(66): App\Core\Router->invoke(Array, Array)
+#6 D:\YP\index.php(11): App\Core\Router->dispatch('GET', '/')
+#7 D:\YP\router.php(24): require('D:\\YP\\index.php')
+#8 {main}
+[19-Nov-2026 06:36:21 Europe/Moscow] [stroycalc] could not find driver
+#0 D:\YP\app\Core\Database.php(53): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\YP\app\helpers.php(25): App\Core\Database::pdo()
+#2 D:\YP\app\Repositories\ArticleRepository.php(17): db()
+#3 D:\YP\app\Controllers\HomeController.php(13): App\Repositories\ArticleRepository->published(3)
+#4 D:\YP\app\Core\Router.php(124): App\Controllers\HomeController->index(Array)
+#5 D:\YP\app\Core\Router.php(66): App\Core\Router->invoke(Array, Array)
+#6 D:\YP\index.php(11): App\Core\Router->dispatch('GET', '/')
+#7 D:\YP\router.php(24): require('D:\\YP\\index.php')
+#8 {main}
+[19-Nov-2026 06:36:23 Europe/Moscow] [stroycalc] could not find driver
+#0 D:\YP\app\Core\Database.php(53): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\YP\app\helpers.php(25): App\Core\Database::pdo()
+#2 D:\YP\app\Repositories\ArticleRepository.php(17): db()
+#3 D:\YP\app\Controllers\HomeController.php(13): App\Repositories\ArticleRepository->published(3)
+#4 D:\YP\app\Core\Router.php(124): App\Controllers\HomeController->index(Array)
+#5 D:\YP\app\Core\Router.php(66): App\Core\Router->invoke(Array, Array)
+#6 D:\YP\index.php(11): App\Core\Router->dispatch('GET', '/')
+#7 D:\YP\router.php(24): require('D:\\YP\\index.php')
+#8 {main}
