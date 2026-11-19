@@ -176,3 +176,6 @@ rm storage/database.sqlite && php bin/install.php
 ## Лицензия и контакты
 
 Расчёты носят справочный характер: перед покупкой сверяйтесь с рекомендациями производителя материала. Контакты для вопросов: x0bar@yandex.ru, Telegram — https://t.me/tgkrostikaizkms, ВКонтакте — https://vk.ru/yfvyv5 (настраиваются через `APP_EMAIL`, `APP_TELEGRAM`, `APP_VK` в `.env`).
+
+
+.\.tools\php\php.exe -c .tools\php\php.ini -S 127.0.0.1:8000 router.php
